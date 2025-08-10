@@ -1,0 +1,55 @@
+/* CompanyPage Styles */
+
+/* General Styles */
+.company-page {
+    background-color: #0f0e0d;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Team Section Styles */
+.team-member-featured {
+    transition: all 0.3s ease;
+}
+
+.team-member-featured:hover {
+    transform: translateY(-5px);
+}
+
+.team-member-social a {
+    transition: all 0.3s ease;
+}
+
+.team-member-social a:hover {
+    transform: scale(1.2);
+}
+
+/* Investor Section Styles */
+.investor-logo {
+    transition: all 0.3s ease;
+}
+
+.investor-logo:hover {
+    transform: scale(1.05);
+    opacity: 1 !important;
+}
+
+/* Remove any blue accent colors */
+.bg-blue-600 {
+    background-color: #1f2937 !important;
+}
+
+.text-blue-400 {
+    color: #9ca3af !important;
+}
+
+/* Team Grid Styles */
+.team-grid-image {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-grid-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}

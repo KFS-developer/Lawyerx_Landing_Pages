@@ -1,0 +1,35 @@
+/* Register Page Styles */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+    animation: marquee 20s linear infinite;
+}
+
+/* Navbar Styles */
+.navbar {
+    transition: all 0.3s ease;
+}
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+    .navbar-logo img {
+        height: 2rem;
+    }
+}

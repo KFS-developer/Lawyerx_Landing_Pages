@@ -1,0 +1,87 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Abstract pattern for legal tech theme -->
+    <pattern id="techPattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 0L100 0L100 100L0 100Z" fill="none" stroke="#3b82f6" stroke-width="0.5" stroke-opacity="0.1"/>
+      <path d="M50 0L50 100M0 50L100 50" stroke="#3b82f6" stroke-width="0.5" stroke-opacity="0.1"/>
+      <circle cx="50" cy="50" r="10" fill="#3b82f6" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)" />
+  
+  <!-- Tech pattern overlay -->
+  <rect width="1920" height="1080" fill="url(#techPattern)" />
+  
+  <!-- Abstract digital elements -->
+  <g opacity="0.15">
+    <!-- Circuit-like lines -->
+    <path d="M0 200 H1920" stroke="#60a5fa" stroke-width="1" />
+    <path d="M0 400 H1920" stroke="#60a5fa" stroke-width="1" />
+    <path d="M0 600 H1920" stroke="#60a5fa" stroke-width="1" />
+    <path d="M0 800 H1920" stroke="#60a5fa" stroke-width="1" />
+    <path d="M0 1000 H1920" stroke="#60a5fa" stroke-width="1" />
+    
+    <path d="M200 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M400 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M600 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M800 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M1000 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M1200 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M1400 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M1600 0 V1080" stroke="#60a5fa" stroke-width="1" />
+    <path d="M1800 0 V1080" stroke="#60a5fa" stroke-width="1" />
+  </g>
+  
+  <!-- Abstract nodes representing AI/legal connections -->
+  <g opacity="0.2">
+    <circle cx="400" cy="300" r="5" fill="#60a5fa" />
+    <circle cx="600" cy="200" r="5" fill="#60a5fa" />
+    <circle cx="800" cy="400" r="5" fill="#60a5fa" />
+    <circle cx="1000" cy="300" r="5" fill="#60a5fa" />
+    <circle cx="1200" cy="500" r="5" fill="#60a5fa" />
+    <circle cx="1400" cy="200" r="5" fill="#60a5fa" />
+    <circle cx="1600" cy="400" r="5" fill="#60a5fa" />
+    
+    <circle cx="400" cy="700" r="5" fill="#60a5fa" />
+    <circle cx="600" cy="800" r="5" fill="#60a5fa" />
+    <circle cx="800" cy="600" r="5" fill="#60a5fa" />
+    <circle cx="1000" cy="700" r="5" fill="#60a5fa" />
+    <circle cx="1200" cy="900" r="5" fill="#60a5fa" />
+    <circle cx="1400" cy="800" r="5" fill="#60a5fa" />
+    <circle cx="1600" cy="600" r="5" fill="#60a5fa" />
+    
+    <!-- Connection lines -->
+    <path d="M400 300 L600 200 L800 400 L1000 300 L1200 500 L1400 200 L1600 400" stroke="#60a5fa" stroke-width="1" fill="none" />
+    <path d="M400 700 L600 800 L800 600 L1000 700 L1200 900 L1400 800 L1600 600" stroke="#60a5fa" stroke-width="1" fill="none" />
+    
+    <path d="M400 300 L400 700" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M600 200 L600 800" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M800 400 L800 600" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M1000 300 L1000 700" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M1200 500 L1200 900" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M1400 200 L1400 800" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+    <path d="M1600 400 L1600 600" stroke="#60a5fa" stroke-width="1" stroke-dasharray="5,5" />
+  </g>
+  
+  <!-- Glow effects -->
+  <circle cx="960" cy="540" r="300" fill="url(#bgGradient)" opacity="0.3">
+    <animate attributeName="r" values="300;350;300" dur="10s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Abstract legal symbols -->
+  <g opacity="0.1" transform="translate(960, 540)">
+    <!-- Scales of justice abstraction -->
+    <path d="M0 -100 L-80 0 L80 0 Z" fill="#60a5fa" />
+    <path d="M-80 0 L-100 100 M80 0 L100 100" stroke="#60a5fa" stroke-width="2" />
+    <circle cx="-100" cy="100" r="20" fill="#60a5fa" />
+    <circle cx="100" cy="100" r="20" fill="#60a5fa" />
+  </g>
+</svg>

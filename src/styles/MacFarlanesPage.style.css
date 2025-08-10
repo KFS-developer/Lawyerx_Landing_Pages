@@ -1,0 +1,46 @@
+/* MacFarlanesPage Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+.quote-mark {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #f3f4f6;
+}
+
+.impact-item {
+  border-left: 2px solid #ffffff;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.impact-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}

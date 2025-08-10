@@ -1,0 +1,81 @@
+/* CustomerPage.style.css */
+
+/* Global styles */
+.customer-page {
+  background-color: #0f0e0d;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Marquee animation */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  white-space: nowrap;
+}
+
+.marquee-content.paused {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.customer-logo {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.customer-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .marquee-content {
+    animation-duration: 20s;
+  }
+}
+
+@media (max-width: 640px) {
+  .marquee-content {
+    animation-duration: 15s;
+  }
+}
+
+/* Filter buttons hover effect */
+.filter-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Customer story card hover effect */
+.customer-story-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customer-story-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Building together logos */
+.building-together-logo {
+  transition: opacity 0.3s ease;
+}
+
+.building-together-logo:hover {
+  opacity: 1;
+}

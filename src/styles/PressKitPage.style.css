@@ -1,0 +1,62 @@
+/* PressKitPage Styles */
+
+/* General Styles */
+.press-kit-page {
+    background-color: #0f0e0d;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Press Kit Header */
+.press-kit-header {
+    padding-top: 8rem;
+}
+
+/* Logo Display Styles */
+.logo-box {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.logo-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Download Button */
+.download-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .press-kit-header {
+        padding-top: 6rem;
+    }
+    
+    .logo-box {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .press-kit-header {
+        padding-top: 5rem;
+    }
+    
+    .logo-box {
+        padding: 1rem;
+    }
+}

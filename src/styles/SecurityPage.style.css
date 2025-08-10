@@ -1,0 +1,30 @@
+/* SecurityPage Styles */
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 6rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-section {
+        padding-top: 8rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hero-section {
+        padding-top: 10rem;
+    }
+}
