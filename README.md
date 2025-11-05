@@ -45,7 +45,7 @@ It showcases a professional layout with sections like Hero Banner, Services, Law
 
 1. Clone the repository
 ```
-git clone [https://github.com/your-username/LawyerX.git](https://github.com/KFS-developer/Lawyerx_Landing_Pages.git)
+git clone https://github.com/KFS-developer/Lawyerx_Landing_Pages.git
 ```
 2. Go to project folder
 ```
